@@ -202,6 +202,224 @@
         border-radius: 10px;
         padding: 18px 28px;
     }
+
+    /* ******end of MAIN page***** */
+
+    /* ******dev***** */
+
+    .idc-dev .idc-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .idc-dev .idc-h1 {
+        margin-top: 25px;
+    }
+    .idc-dev .idc-container > .idc-text-4 {
+        margin-top: 45px;
+        max-width: 870px;
+    }
+    .idc-dev .idc-text-4b {
+        margin-top: 35px;
+    }
+    .idc-dev .idc-bottom {
+        margin-top: 25px;
+        max-width: 870px;
+    }
+    .idc-dev .idc-img-block {
+        height: 286px;
+    }
+
+    /* *********End of dev********* */
+
+    /* *********actives********* */
+    .idc-actives .idc-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .idc-actives .idc-text-block {
+        padding: 0 30px;
+    }
+
+    .idc-actives .idc-h1 {
+        margin-top: 25px;
+    }
+    .idc-actives .idc-text-5b {
+        margin-top: 15px;
+    }
+    .idc-actives .idc-text-4 {
+        margin-top: 45px;
+    }
+    .idc-actives .idc-actives-map,
+    .idc-actives .idc-actives-list,
+    .idc-actives .idc-avtives-names {
+        margin-top: 45px;
+    }
+    .idc-actives .idc-up-btn {
+        margin-top: 10px;
+    }
+    /* *********end of actives********* */
+
+    /* *********projects********* */
+    .idc-projects .idc-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .idc-projects .idc-text-block {
+        padding: 0 30px;
+    }
+
+    .idc-projects .idc-h1 {
+        margin-top: 25px;
+    }
+    .idc-projects .idc-cards-block {
+        margin-top: 80px;
+    }
+    .idc-swiper-2 {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .idc-projects .idc-card {
+        height: 546px;
+    }
+    .idc-projects .idc-card-1,
+    .idc-projects .idc-card-3 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .idc-projects .idc-card-1 {
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    .idc-projects .idc-card-3 {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .idc-projects .idc-card-1::before,
+    .idc-projects .idc-card-3::before {
+        height: 571px;
+        width: 300px;
+    }
+
+    .idc-projects .idc-card-1 .idc-text-5,
+    .idc-projects .idc-card-3 .idc-text-5 {
+        margin-top: 10px;
+    }
+
+    .idc-projects .idc-count .idc-text-2 + .idc-text-6 {
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+
+    .idc-projects .idc-counts + .idc-text-2 {
+        margin-top: 10px;
+    }
+    .idc-projects .idc-text-6 + .idc-count {
+        margin-top: 15px;
+    }
+    .idc-projects .idc-btn {
+        padding: 9px 14px;
+    }
+
+    .idc-projects .idc-card-1 .idc-btn {
+        margin-top: 30px;
+    }
+    .idc-projects .idc-card-3 .idc-btn {
+        margin-top: 27px;
+    }
+
+    .idc-projects .idc-card-2 {
+        z-index: 1;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .idc-projects .idc-card-2::before {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        width: 344px;
+        height: 546px;
+    }
+    .idc-projects .idc-card-2 .idc-text-5 {
+        margin-top: 10px;
+    }
+    .idc-projects .idc-project-items {
+        margin-top: 30px;
+    }
+    .idc-projects .idc-project-item {
+        width: 268px;
+    }
+
+    .idc-projects .idc-project-item .idc-text-6 {
+        max-width: 213px;
+    }
+    .idc-projects .idc-project-item:nth-child(2) .idc-text-6 {
+        width: 100%;
+    }
+    .idc-projects .idc-project-item:nth-child(3) .idc-text-6 {
+        width: 77%;
+    }
+
+    .idc-projects .idc-card-2 .idc-btn {
+        border-radius: 5px;
+        padding: 9px 14px;
+    }
+    .idc-projects .idc-card-2 .idc-btn-wrapper {
+        margin-top: 44px;
+    }
+    /* *********end of projects********* */
+
+    /* *********info********* */
+    .idc-info .idc-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+    }
+    .idc-info .idc-sidebar {
+        width: 245px;
+    }
+
+    .idc-info .idc-info-menu .idc-project-name {
+        margin-top: 5px;
+    }
+
+    .idc-info .idc-sidebar-1 {
+        margin-top: 40px;
+    }
+
+    .idc-info .idc-sidebar-1 .idc-counts {
+        padding: 30px 40px 30px 30px;
+    }
+
+    .idc-info .idc-content {
+        margin-left: 53px;
+        padding-top: 40px;
+    }
+
+    .idc-info .idc-content-1 .idc-text-4 {
+        margin-top: 10px;
+        max-width: 572px;
+    }
+    .idc-info .idc-content-1 .idc-h1 + .idc-text-4 {
+        margin-top: 35px;
+    }
+    .idc-info .idc-content-1 .idc-swiper-block {
+        margin-top: 40px;
+    }
+    .idc-info .idc-swiper-block .swiper-slide {
+        width: 334px;
+    }
+
+    .idc-info .swiper {
+        padding-bottom: 0;
+    }
+    .idc-control-wrapper {
+        margin-top: 40px;
+    }
+
+    /* *********end of info********* */
 }
 @media (max-width: 1019px) {
     .idc-container {
@@ -402,6 +620,248 @@
     .idc-main .idc-video .idc-button {
         padding: 13px 28px;
     }
+
+    /* ******end of MAIN page***** */
+
+    /* ******dev***** */
+
+    .idc-dev .idc-container {
+        padding-top: 55px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .idc-dev .idc-h1 {
+        margin-top: 15px;
+    }
+    .idc-dev .idc-container > .idc-text-4 {
+        margin-top: 40px;
+    }
+    .idc-dev .idc-bottom {
+        margin-top: 20px;
+    }
+    .idc-dev .idc-img-block {
+        width: 216px;
+        height: 198px;
+        padding: 10px;
+    }
+    .idc-dev .idc-link-wrapper {
+        margin-top: 5px;
+    }
+    .idc-dev .idc-bottom .idc-text-4 {
+        margin-left: 20px;
+    }
+
+    /* *********End of dev********* */
+
+    /* *********actives********* */
+    .idc-actives .idc-container {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    .idc-actives .idc-text-block {
+        padding: 0;
+        padding-right: 20px;
+    }
+
+    .idc-actives .idc-h1 {
+        margin-top: 15px;
+    }
+    .idc-actives .idc-text-5b {
+        margin-top: 10px;
+    }
+    .idc-actives .idc-text-4 {
+        margin-top: 30px;
+    }
+    .idc-actives .idc-actives-map,
+    .idc-actives .idc-actives-list,
+    .idc-actives .idc-avtives-names {
+        margin-top: 30px;
+    }
+    .idc-actives .idc-up-btn {
+        margin-top: 20px;
+    }
+    /* *********end of actives********* */
+
+    /* *********projects********* */
+    .idc-projects .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-projects .idc-text-block {
+        padding: 0 10px;
+    }
+
+    .idc-projects .idc-h1 {
+        margin-top: 15px;
+    }
+    .idc-projects .idc-cards-block {
+        margin-top: 60px;
+    }
+    .idc-swiper-2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .idc-projects .idc-card {
+        height: auto;
+    }
+    .idc-projects .idc-card-1,
+    .idc-projects .idc-card-3 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .idc-projects .idc-card-1 {
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .idc-projects .idc-card-3 {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .idc-projects .idc-card-1::before,
+    .idc-projects .idc-card-3::before {
+        height: 100%;
+        width: 100%;
+    }
+
+    .idc-projects .idc-card-1 .idc-text-5,
+    .idc-projects .idc-card-3 .idc-text-5 {
+        margin-top: 15px;
+    }
+
+    .idc-projects .idc-count .idc-text-2 + .idc-text-6 {
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .idc-projects .idc-counts + .idc-text-2 {
+        margin-top: 15px;
+    }
+    .idc-projects .idc-text-6 + .idc-count {
+        margin-top: 15px;
+    }
+
+    .idc-projects .idc-card-1 .idc-btn {
+        margin-top: 50px;
+    }
+    .idc-projects .idc-card-3 .idc-btn {
+        margin-top: 43px;
+    }
+
+    .idc-projects .idc-card-2::before {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100%;
+    }
+    .idc-projects .idc-card-2 {
+        padding: 25px 20px 30px 15px;
+    }
+    .idc-projects .idc-card-2 .idc-text-5 {
+        margin-top: 15px;
+    }
+    .idc-projects .idc-project-items {
+        margin-top: 30px;
+    }
+    .idc-projects .idc-project-item {
+        width: 100%;
+    }
+
+    .idc-projects .idc-project-item .idc-text-6 {
+        max-width: 189px;
+    }
+    .idc-projects .idc-project-item:nth-child(2) .idc-text-6 {
+        width: 100%;
+    }
+    .idc-projects .idc-project-item:nth-child(3) .idc-text-6 {
+        width: 77%;
+    }
+    .idc-projects .idc-card-2 .idc-btn-wrapper {
+        margin-top: 44px;
+    }
+
+    /* *********end of projects********* */
+
+    /* *********info********* */
+    .idc-info .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+    .idc-info .idc-sidebar {
+        width: 192px;
+    }
+    .idc-info .idc-info-menu .idc-text-5c + .idc-project-name {
+        margin-top: 20px;
+    }
+    .idc-info .idc-sidebar-1 {
+        margin-top: 20px;
+    }
+
+    .idc-info .idc-sidebar-1 .idc-counts {
+        padding: 20px 22px 20px 20px;
+    }
+    .idc-info .idc-counts .idc-text-6 {
+        margin-top: 5px;
+    }
+    .idc-info .idc-counts .idc-text-6 + .idc-h2 {
+        margin-top: 20px;
+    }
+    .idc-info .idc-content {
+        margin-left: 30px;
+        padding-top: 25px;
+    }
+
+    .idc-info .idc-content-1 .idc-text-4 {
+        margin-top: 5px;
+        max-width: 365px;
+    }
+    .idc-info .idc-content-1 .idc-h1 + .idc-text-4 {
+        margin-top: 25px;
+    }
+    .idc-info .idc-content-1 .idc-swiper-block {
+        margin-top: 30px;
+    }
+    .idc-info .idc-swiper-block .swiper-slide {
+        width: 238px;
+    }
+
+    .idc-control-wrapper {
+        margin-top: 15px;
+    }
+    .idc-pagination {
+        margin-left: 15px;
+        padding-bottom: 7px;
+    }
+    .idc-pagination .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+        border: 1px solid #174f9e;
+    }
+    .idc-swiper-button-next {
+        margin-left: 15px;
+    }
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        width: 25px;
+        height: 25px;
+    }
+    .idc-swiper-btn {
+        height: 25px;
+        width: 25px;
+    }
+    .idc-swiper-btn > svg {
+        width: 5px;
+        height: 9px;
+    }
+    .idc-swiper-button-prev .idc-swiper-btn {
+        padding-right: 2px;
+    }
+    .idc-swiper-button-next .idc-swiper-btn {
+        padding-left: 2px;
+    }
+    /* *********end of info********* */
 }
 @media (max-width: 699px) {
     .idc-container {
@@ -620,4 +1080,143 @@
         width: 100%;
         padding: 13px 28px;
     }
+
+    /* ******end of MAIN page***** */
+
+    /* ******dev***** */
+
+    .idc-dev .idc-container {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .idc-dev .idc-container > .idc-text-4 {
+        margin-top: 25px;
+    }
+    .idc-dev .idc-text-4b {
+        margin-top: 45px;
+    }
+    .idc-dev .idc-bottom {
+        margin-top: 10px;
+    }
+    .idc-dev .idc-img-block {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .idc-dev .idc-link-wrapper .idc-text-5c {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .idc-dev .idc-link-wrapper {
+        margin-top: 5px;
+    }
+    .idc-dev .idc-bottom .idc-text-4 {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    /* *********End of dev********* */
+
+    /* *********actives********* */
+    .idc-actives .idc-container {
+        padding-top: 25px;
+    }
+    .idc-actives .idc-text-block {
+        padding: 0;
+        padding-right: 20px;
+    }
+
+    .idc-actives .idc-text-5b {
+        margin-top: 7px;
+    }
+    .idc-actives .idc-text-4 {
+        margin-top: 25px;
+    }
+    .idc-actives .idc-actives-map {
+        margin-top: 30px;
+    }
+    .idc-actives .idc-actives-list,
+    .idc-actives .idc-avtives-names {
+        margin-top: 15px;
+    }
+    .idc-actives .idc-up-btn {
+        width: 30px;
+        margin-top: 10px;
+    }
+    /* *********end of actives********* */
+
+    /* *********info********* */
+    .idc-info .idc-container {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .idc-info .idc-sidebar {
+        width: 100%;
+    }
+    .idc-info .idc-mobile-title {
+        display: block;
+    }
+    .idc-info .idc-content .idc-h1 {
+        display: none;
+    }
+    .idc-info .idc-sidebar .idc-img {
+        margin-top: 15px;
+    }
+    .idc-info .idc-info-menu .idc-text-5c + .idc-project-name {
+        margin-top: 25px;
+    }
+    .idc-info .idc-sidebar-1 {
+        margin-top: 25px;
+    }
+    .idc-info .idc-counts {
+        align-items: center;
+        text-align: center;
+    }
+    .idc-info .idc-sidebar-1 .idc-counts {
+        padding: 20px 35px;
+    }
+    .idc-info .idc-counts .idc-text-6 {
+        margin-top: 10px;
+    }
+
+    .idc-info .idc-content {
+        margin-left: 0;
+        flex: none;
+        width: 100%;
+    }
+
+    .idc-info .idc-content-1 > .idc-text-4 {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .idc-info .idc-content-1 .idc-text-4 + .idc-text-4 {
+        margin-top: 10px;
+    }
+
+    .idc-info .idc-swiper-block .swiper-slide {
+        width: 100%;
+    }
+
+    .idc-control-wrapper {
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .idc-pagination {
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        display: none;
+    }
+
+    /* *********end of info********* */
 }
