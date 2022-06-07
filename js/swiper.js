@@ -1,4 +1,4 @@
-const swiper1 = new Swiper(".idc-swiper", {
+const mainPage = new Swiper(".idc-swiper", {
     // Default parameters
     breakpoints: {
         320: {
@@ -24,17 +24,19 @@ const swiper1 = new Swiper(".idc-swiper", {
     },
 });
 
-const swiper2 = new Swiper(".idc-swiper-2", {
+const projects = new Swiper(".idc-swiper-2", {
     // Default parameters
     breakpoints: {
         320: {
             slidesPerView: 1,
-            loop: true,
+            spaceBetween: 20,
         },
-
+        700: {
+            slidesPerView: "auto",
+            spaceBetween: 20,
+        },
         1020: {
             slidesPerView: 3,
-            loop: false,
         },
     },
     direction: "horizontal",
@@ -45,13 +47,14 @@ const swiper2 = new Swiper(".idc-swiper-2", {
     allowTouchMove: true,
     watchOverflow: true,
     grabCursor: false,
+    loop: false,
     pagination: {
         el: ".idc-swiper-pagination-2",
         type: "bullets",
     },
 });
 
-const swiper3 = new Swiper(".idc-swiper-3", {
+const projectPages = new Swiper(".idc-swiper-3", {
     // Default parameters
     breakpoints: {
         700: {

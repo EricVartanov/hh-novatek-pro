@@ -669,10 +669,10 @@ body {
     border: 1px solid #ffffff;
 }
 
-.idc-projects .idc-card-1 .idc-btn {
+.idc-projects .idc-card-1 .idc-btn-wrapper {
     margin-top: 45px;
 }
-.idc-projects .idc-card-3 .idc-btn {
+.idc-projects .idc-card-3 .idc-btn-wrapper {
     margin-top: 30px;
 }
 
@@ -738,9 +738,18 @@ body {
     display: inline-block;
     border: 1px solid #265396;
 }
+.idc-projects .idc-card-2 .idc-btn:hover {
+    transition: 0.2s all ease-in-out;
+    color: #265396;
+    background-color: #ffffff;
+}
 .idc-projects .idc-card-2 .idc-btn-wrapper {
     margin-top: 70px;
 }
+.idc-swiper-pagination-2 {
+    display: none;
+}
+
 .idc-projects {
     display: none;
 }
@@ -879,4 +888,136 @@ body {
     margin-left: 30px;
 }
 
+/* ****page 2*** */
+.idc-info .idc-sidebar-2 {
+    margin-top: 30px;
+}
+.idc-info .idc-sidebar-2 .idc-counts {
+    padding: 30px 35px 50px 30px;
+}
+.idc-info .idc-sidebar-2 .idc-counts .idc-text-6:last-child {
+    width: 81%;
+}
+.idc-info .idc-content-2 .idc-text-4 {
+    margin-top: 18px;
+    max-width: 858px;
+}
+.idc-info .idc-content-2 .idc-h1 + .idc-text-4 {
+    margin-top: 50px;
+}
+.idc-info .idc-content-2 .idc-swiper-block {
+    margin-top: 28px;
+}
+/* ****page 3*** */
+.idc-info .idc-sidebar-3 {
+    margin-top: 30px;
+}
+.idc-info .idc-sidebar-3 .idc-counts {
+    padding: 30px 35px 50px 35px;
+}
+
+.idc-info .idc-content-3 .idc-text-4 {
+    margin-top: 15px;
+    max-width: 858px;
+}
+.idc-info .idc-content-3 .idc-h1 + .idc-text-4 {
+    margin-top: 50px;
+}
+.idc-info .idc-content-3 .idc-swiper-block {
+    margin-top: 50px;
+}
+.idc-info {
+    display: none;
+}
+.idc-sidebar-1,
+.idc-sidebar-2 {
+    display: none;
+}
+.idc-content-1,
+.idc-content-2 {
+    display: none;
+}
 /* *********end of info********* */
+
+/* *********career********* */
+.idc-career .idc-container {
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.idc-career .idc-text-block {
+    padding: 0 35px;
+}
+.idc-career .idc-text-5c {
+    color: #757575;
+}
+.idc-career .idc-h1 {
+    margin-top: 30px;
+    color: #174f9e;
+}
+.idc-career .idc-h1 + .idc-text-4 {
+    margin-top: 35px;
+}
+.idc-career .idc-text-4 > span {
+    color: #174f9e;
+    font-weight: 700;
+}
+.idc-career .idc-text-4 {
+    margin-top: 20px;
+}
+.idc-career .idc-img-block {
+    margin-top: 40px;
+    padding: 110px 40px;
+    background: #174f9e;
+    align-items: center;
+}
+.idc-career .idc-img {
+    width: 383px;
+    margin-left: 10px;
+}
+.idc-career .idc-img:first-child {
+    margin-left: 0;
+}
+.idc-career {
+    display: none;
+}
+/* *********end of career********* */
+
+/* *********vacancy********* */
+.idc-vacancy .idc-container {
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.idc-vacancy .idc-text-block {
+    padding: 0 35px;
+}
+.idc-vacancy .idc-text-5c {
+    color: #757575;
+}
+.idc-vacancy .idc-h1 {
+    margin-top: 30px;
+    color: #174f9e;
+}
+.idc-vacancy .idc-vacancy-block {
+    margin-top: 30px;
+    padding-left: 27.5px;
+}
+.idc-vacancy .idc-vacancy-item {
+    padding: 0 7.5px;
+    margin-top: 30px;
+}
+.idc-vacancy-item .idc-text-5 {
+    display: block;
+    color: #4a4a4a;
+    text-decoration: none;
+    border: 1px solid rgba(23, 79, 158, 0.6);
+    border-radius: 220px;
+    background: #ffffff;
+    padding: 14px 24px;
+}
+.idc-vacancy-item .idc-text-5:hover {
+    transition: 0.2s all ease-in-out;
+    color: #ffffff;
+    background: #174f9e;
+    box-shadow: 0px 4px 20px rgba(38, 83, 150, 0.3);
+}
+/* *********end of vacancy********* */
