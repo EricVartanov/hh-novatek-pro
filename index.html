@@ -20,17 +20,40 @@
         <section class="idc-nav idc-section">
             <div class="idc-container">
                 <div class="idc-nav-block idc-flex">
-                    <div class="idc-logo">
-                        <a href="#">
-                            <img src="img/logo.svg" alt="" />
-                        </a>
+                    <div class="idc-logo-wrapper idc-flex">
+                        <div class="idc-logo idc-menu__link" data-id="idc-main">
+                            <a href="#">
+                                <img src="img/logo.svg" alt="" />
+                            </a>
+                        </div>
+                        <div class="idc-modal-btn">
+                            <svg class="idc-menu-open" width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Frame 247">
+                                    <path id="Vector 1" d="M1 1.5H19" stroke-width="2" stroke-linecap="round" />
+                                    <path id="Vector 3" d="M1 6.5H19" stroke-width="2" stroke-linecap="round" />
+                                    <path id="Vector 2" d="M1 11.5H19" stroke-width="2" stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <svg class="idc-menu-close" width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group 3">
+                                    <path id="Vector 1" d="M1.63599 13.864L14.3639 1.13609" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path id="Vector 2" d="M2 1L14.7279 13.7279" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </g>
+                            </svg>
+
+                        </div>
                     </div>
+
                     <div class="idc-menu idc-flex">
-                        <a class="idc-menu__link idc-text-5b" href="">наши активы</a>
-                        <a class="idc-menu__link idc-text-5b" href="">ключевые проекты</a>
-                        <a class="idc-menu__link idc-text-5b" href="">устойчивое развитие</a>
-                        <a class="idc-menu__link idc-text-5b" href="">карьера</a>
-                        <a class="idc-menu__link idc-text-5b" href="">вакансии</a>
+                        <a class="idc-menu__link idc-text-5b" data-id="idc-actives" href="">наши активы</a>
+                        <a class="idc-menu__link idc-text-5b" data-id="idc-projects" href="">ключевые проекты</a>
+                        <a class="idc-menu__link idc-text-5b" data-id="idc-dev" href="">устойчивое развитие</a>
+                        <a class="idc-menu__link idc-text-5b" data-id="idc-career" href="">карьера</a>
+                        <a class="idc-menu__link idc-text-5b" data-id="idc-vacancy" href="">вакансии</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +62,7 @@
 
 
         <div class="idc-pages idc-section">
-            <div class="idc-main">
+            <div class="idc-main open idc-page" id="idc-main">
                 <div class="idc-head">
                     <div class="idc-container">
                         <div class="idc-content">
@@ -179,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div class="idc-dev">
+            <div class="idc-dev idc-page" id="idc-dev">
                 <div class="idc-container">
                     <p class="idc-text-5c">главная/ устойчивое развитие</p>
                     <h1 class="idc-h1">устойчивое развитие</h1>
@@ -226,10 +249,10 @@
                     </div>
                 </div>
             </div>
-            <div class="idc-actives">
+            <div class="idc-actives idc-page" id="idc-actives">
                 <div class="idc-container">
                     <div class="idc-text-block">
-                        <p class="idc-text-5c" id="idc-actives-start">главная/ наши активы</p>
+                        <p class="idc-text-5c">главная/ наши активы</p>
                         <h1 class="idc-h1">наши активы</h1>
                         <p class="idc-text-5b">НАШИ ДОБЫВАЮЩИЕ И ПЕРЕРАБАТЫВАЮЩИЕ АКТИВЫ РАСПОЛОЖЕНЫ НА ТЕРРИТОРИИ
                             РОССИЙСКОЙ ФЕДЕРАЦИИ</p>
@@ -253,13 +276,13 @@
                         <img src="img/actives/names.jpg" alt="" />
                     </div>
                     <div class="idc-up-btn">
-                        <a href="#idc-actives-start">
+                        <a href="">
                             <img src="img/actives/up.png" alt="" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="idc-projects">
+            <div class="idc-projects idc-page" id="idc-projects">
                 <div class="idc-container">
                     <div class="idc-text-block">
                         <p class="idc-text-5c">главная/ ключевые проекты</p>
@@ -291,7 +314,7 @@
                                             вместе с газовозами более низкого ледового класса, предназначенными для
                                             перевозки СПГ</p>
                                         <div class="idc-btn-wrapper">
-                                            <a class="idc-text-6b idc-btn" href="#">подробнее</a>
+                                            <a class="idc-text-6b idc-btn" data-page="1" href="#">подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +355,7 @@
                                             </div>
                                         </div>
                                         <div class="idc-btn-wrapper">
-                                            <a class="idc-text-6b idc-btn" href="#">подробнее</a>
+                                            <a class="idc-text-6b idc-btn" data-page="2" href="#">подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -364,7 +387,7 @@
                                                 принимать отгрузочный причал</p>
                                         </div>
                                         <div class="idc-btn-wrapper">
-                                            <a class="idc-text-6b idc-btn" href="#">подробнее</a>
+                                            <a class="idc-text-6b idc-btn" data-page="3" href="#">подробнее</a>
                                         </div>
                                     </div>
                                 </div>
@@ -375,17 +398,20 @@
                     </div>
                 </div>
             </div>
-            <div class="idc-info">
+            <div class="idc-info idc-page" id="idc-info">
                 <div class="idc-container idc-flex">
                     <div class="idc-sidebar">
                         <div class="idc-info-menu">
                             <p class="idc-text-5c">главная/ ключевые проекты</p>
-                            <a class="idc-project-name idc-text-5b" href="">Проект «ЯМАЛ СПГ»</a>
-                            <a class="idc-project-name idc-text-5b" href="">Проект «АСПГ 2»</a>
-                            <a class="idc-project-name idc-text-5b" href="">Проект«КРИОГАЗ-ВЫСОЦК»</a>
+                            <a class="idc-project-name idc-text-5b idc-info-page" data-page="1" href="">Проект «ЯМАЛ
+                                СПГ»</a>
+                            <a class="idc-project-name idc-text-5b idc-info-page" data-page="2" href="">Проект «АСПГ
+                                2»</a>
+                            <a class="idc-project-name idc-text-5b idc-info-page" data-page="3"
+                                href="">Проект«КРИОГАЗ-ВЫСОЦК»</a>
                         </div>
                         <div class="idc-sidebar-info">
-                            <div class="idc-sidebar-1">
+                            <div class="idc-sidebar-1 idc-info-page" data-page="1">
                                 <p class="idc-h1 idc-mobile-title">Проект «ЯМАЛ СПГ»</p>
                                 <div class="idc-img">
                                     <img src="img/info/project1/sidebar-img.jpg" alt="" />
@@ -401,7 +427,7 @@
                                     <p class="idc-text-6">в декабре 2017 года начато производство СПГ</p>
                                 </div>
                             </div>
-                            <div class="idc-sidebar-2">
+                            <div class="idc-sidebar-2 idc-info-page" data-page="2">
                                 <p class="idc-h1 idc-mobile-title">Проект «АСПГ 2»</p>
 
                                 <div class="idc-img">
@@ -419,7 +445,7 @@
                                     <p class="idc-text-6">доля ПАО «НОВАТЭК» в проекте</p>
                                 </div>
                             </div>
-                            <div class="idc-sidebar-3">
+                            <div class="idc-sidebar-3 idc-info-page" data-page="3">
                                 <p class="idc-h1 idc-mobile-title">Проект «КРИОГАЗ-ВЫСОЦК»</p>
 
                                 <div class="idc-img">
@@ -440,7 +466,7 @@
                         </div>
                     </div>
                     <div class="idc-content">
-                        <div class="idc-content-1">
+                        <div class="idc-content-1 idc-info-page" data-page="1">
                             <p class="idc-h1">Проект «ЯМАЛ СПГ»</p>
                             <p class="idc-text-4">ЯМАЛ СПГ– первый и ключевой интегрированный проект Компании по добыче,
                                 сжижению и реализации газа, реализованный на полуострове Ямал за Полярным кругом на базе
@@ -539,7 +565,7 @@
                             </div>
                         </div>
 
-                        <div class="idc-content-2">
+                        <div class="idc-content-2 idc-info-page" data-page="2">
                             <p class="idc-h1">Проект «АСПГ 2»</p>
                             <p class="idc-text-4">АСПГ 2 - очередной проект «НОВАТЭКа», связанный с производством
                                 сжиженного природного газа Проект предусматривает строительство трех технологических
@@ -611,7 +637,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="idc-content-3">
+                        <div class="idc-content-3 idc-info-page" data-page="3">
                             <p class="idc-h1">Проект «КРИОГАЗ-ВЫСОЦК»</p>
                             <p class="idc-text-4">КРИОГАЗ-ВЫСОЦК - первый проект по среднетоннажному производству СПГ,
                                 расположенный в порту Высоцк Ленинградской области на Балтийском море.</p>
@@ -678,7 +704,7 @@
                     </div>
                 </div>
             </div>
-            <div class="idc-career">
+            <div class="idc-career idc-page" id="idc-career">
                 <div class="idc-container">
                     <div class="idc-text-block">
                         <p class="idc-text-5c">главная/ карьера</p>
@@ -709,7 +735,7 @@
                     </div>
                 </div>
             </div>
-            <div class="idc-vacancy">
+            <div class="idc-vacancy idc-page" id="idc-vacancy">
                 <div class="idc-container">
                     <div class="idc-text-block">
                         <p class="idc-text-5c">главная/ вакансии</p>

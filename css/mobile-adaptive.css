@@ -136,6 +136,8 @@
         height: 387px;
     }
     .idc-swiper .swiper-wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .idc-main .idc-about .idc-card {
@@ -338,6 +340,7 @@
         padding-bottom: 10px;
     }
     .idc-projects .idc-card-2::before {
+        -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         width: 344px;
         height: 546px;
@@ -803,6 +806,7 @@
     .idc-projects .idc-card-3::before {
         height: 100%;
         width: 100%;
+        -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
     }
 
@@ -831,6 +835,7 @@
     }
 
     .idc-projects .idc-card-2::before {
+        -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         width: 100%;
         height: 100%;
@@ -849,6 +854,8 @@
     }
 
     .idc-projects .idc-project-item .idc-text-6 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
         flex: 1;
     }
     .idc-projects .idc-project-item:nth-child(2) .idc-text-6 {
@@ -1098,26 +1105,111 @@
         line-height: 15px;
     }
     /* ******Nav***** */
-
+    .idc-nav {
+        position: static;
+    }
+    .idc-main-wrapper {
+        position: relative;
+    }
     .idc-nav .idc-container {
         padding-top: 10px;
         padding-left: 25px;
         padding-right: 25px;
     }
 
-    /* !!!!!!!!!!!!!!!!!!!! */
-    .idc-nav .idc-menu {
+    .idc-modal-btn {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .idc-modal-btn path,
+    .idc-nav-block.open .idc-modal-btn path {
+        stroke: #ffffff;
+    }
+
+    .idc-modal-btn.blue path {
+        stroke: #174f9e;
+    }
+    .idc-logo-wrapper {
+        width: 100%;
+        z-index: 2;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .idc-nav .idc-nav-block.open {
+        -webkit-transition: background 0.2s ease-in-out;
+        -o-transition: background 0.2s ease-in-out;
+        transition: background 0.2s ease-in-out;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: calc(100% - 30px);
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        padding: 10px;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        overflow-y: hidden;
+    }
+
+    .idc-nav-block .idc-menu-close,
+    .idc-nav-block.open .idc-menu-open {
         display: none;
+    }
+    .idc-nav-block.open .idc-menu-close,
+    .idc-nav-block .idc-menu-open {
+        display: block;
     }
     .idc-nav .idc-logo {
         width: 93px;
     }
-
+    .idc-nav-block .idc-menu {
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .idc-nav-block.open .idc-menu {
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        max-height: 3000px;
+        height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        z-index: 5;
+    }
+    .idc-menu {
+        margin-top: 53px;
+    }
+    .idc-menu .idc-menu__link {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+    .idc-nav .idc-menu.grey .idc-text-5b {
+        color: rgba(255, 255, 255, 0.9);
+    }
     /* ******Main***** */
 
     /* ******head***** */
     .idc-main .idc-head {
-        margin-top: -40px;
+        margin-top: -50px;
         z-index: 0;
     }
     .idc-main .idc-head .idc-content {
@@ -1134,6 +1226,9 @@
 
     .idc-main .idc-head .idc-counts {
         margin-top: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -1163,6 +1258,7 @@
         height: 254px;
         width: auto;
         padding: 20px 25px 20px 20px;
+        -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     }
     .idc-swiper .swiper-slide {
@@ -1193,6 +1289,8 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         width: 100%;
         height: 254px;
@@ -1361,6 +1459,8 @@
         width: 30px;
     }
     .idc-swiper-2 .swiper-wrapper {
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
         align-items: baseline;
     }
     .idc-projects .idc-count .idc-text-2 + .idc-text-6 {
@@ -1382,7 +1482,11 @@
         padding-bottom: 50px;
         padding-left: 25px;
         padding-right: 25px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .idc-info .idc-sidebar {
@@ -1404,6 +1508,8 @@
         margin-top: 25px;
     }
     .idc-info .idc-counts {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         text-align: center;
     }
@@ -1416,6 +1522,8 @@
 
     .idc-info .idc-content {
         margin-left: 0;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
         flex: none;
         width: 100%;
     }
@@ -1434,6 +1542,8 @@
 
     .idc-control-wrapper {
         margin-top: 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     .idc-pagination {
@@ -1503,6 +1613,9 @@
     }
     .idc-career .idc-img-block {
         padding: 30px 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .idc-career .idc-img {
@@ -1522,6 +1635,9 @@
     }
 
     .idc-vacancy .idc-vacancy-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 15px;
         padding-left: 10px;

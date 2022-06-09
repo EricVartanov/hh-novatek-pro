@@ -2,7 +2,7 @@ const mainPage = new Swiper(".idc-swiper", {
     // Default parameters
     breakpoints: {
         320: {
-            slidesPerView: "auto",
+            slidesPerView: 1,
         },
         700: {
             slidesPerView: 3,
