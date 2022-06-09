@@ -233,7 +233,8 @@ body {
 .idc-nav .idc-menu.grey .idc-text-5b {
     color: #757575;
 }
-.idc-nav .idc-text-5b:hover {
+.idc-nav .idc-text-5b:hover,
+.idc-nav .idc-menu.grey .idc-text-5b:hover {
     -webkit-transition: 0.2s all ease-in-out;
     -o-transition: 0.2s all ease-in-out;
     transition: 0.2s all ease-in-out;
@@ -334,7 +335,7 @@ body {
 }
 .idc-main .idc-about .idc-h2 + .idc-text-4 {
     margin-top: 20px;
-    max-width: 964px;
+    max-width: 1000px;
     padding-left: 35px;
 }
 .idc-main .idc-about .idc-cards-block {

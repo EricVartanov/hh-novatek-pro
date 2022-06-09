@@ -125,6 +125,16 @@ for (let vacancy of vacancies) {
     });
 }
 
+//ссылка подробнее на страницу развития.
+let devBtn = document.querySelector(".idc-dev-btn");
+devBtn.addEventListener("click", function (e) {
+    let menuLink = document.querySelector('.idc-menu__link[data-id="idc-dev"]');
+    menuLink.classList.add("clicked");
+    e.preventDefault();
+    document.querySelector("#idc-main.open").classList.remove("open");
+    document.querySelector("#idc-dev").classList.add("open");
+    changeMenu();
+});
 // смена цвета меню в зависимост от страницы
 function changeMenu() {
     let navMenu = document.querySelector(".idc-menu");

@@ -3,6 +3,7 @@ const mainPage = new Swiper(".idc-swiper", {
     breakpoints: {
         320: {
             slidesPerView: 1,
+            spaceBetween: 20,
         },
         700: {
             slidesPerView: 3,
