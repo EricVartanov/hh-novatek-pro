@@ -1118,7 +1118,7 @@
     }
 
     .idc-modal-btn {
-        display: block;
+        display: inline-block;
         cursor: pointer;
         margin-left: auto;
     }
