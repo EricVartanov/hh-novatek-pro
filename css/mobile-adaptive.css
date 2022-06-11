@@ -1131,6 +1131,7 @@
         stroke: #174f9e;
     }
     .idc-logo-wrapper {
+        flex-wrap: nowrap;
         width: 100%;
         z-index: 2;
         -webkit-box-align: center;
@@ -1173,10 +1174,8 @@
         height: 0;
         opacity: 0;
         visibility: hidden;
-        width: 0;
     }
     .idc-nav-block.open .idc-menu {
-        width: 100%;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
