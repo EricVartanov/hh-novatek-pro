@@ -1118,7 +1118,9 @@
     }
 
     .idc-modal-btn {
-        display: inline-block;
+        width: 20px;
+        height: 13px;
+        display: block;
         cursor: pointer;
         margin-left: auto;
     }
@@ -1192,7 +1194,6 @@
         -ms-flex-align: center;
         align-items: center;
         z-index: 5;
-        display: block;
     }
     .idc-menu {
         margin-top: 53px;
@@ -1206,7 +1207,6 @@
     }
     .idc-nav .idc-menu {
         margin-top: 0;
-        display: none;
     }
     .idc-nav .idc-menu.grey .idc-text-5b {
         color: rgba(255, 255, 255, 0.9);
